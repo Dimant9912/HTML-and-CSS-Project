@@ -1,0 +1,351 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.arxikh {
+    color: black;
+    text-decoration: none;
+}
+
+
+.logo {
+    width: 30px;
+    height: 30px;
+
+}
+
+.logoContainer {
+    display: flex;
+    align-items: center;
+    font-size: 1.2em;
+    margin-left: 0.5em;
+
+}
+
+.logoContainer h1 {
+    margin-left: 0.3em;
+}
+
+
+.helpdiv {
+    display: flex;
+    justify-content: flex-end;
+
+    color: white;
+    background-color: #2f448f;
+    height: 2.7em;
+    align-items: center;
+}
+
+.helpdiv a {
+    color: white;
+    text-decoration: none;
+    margin-right: 2em;
+}
+
+#help {
+    color: gold;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #a3a1a1;
+    height: 4em;
+}
+
+.navbar {
+    width: 600px;
+    margin-right: 1em;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5em;
+
+}
+
+.navbar a {
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+.main {
+    margin-top: 5em;
+    text-align: center;
+}
+
+.h2rtx {
+    background-color: rgb(27, 161, 27);
+    width: 90%;
+    margin-left: 5%;
+    height: 3em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+
+}
+
+
+.rtx {
+    font-style: italic;
+    margin-left: 1em;
+    text-decoration: underline;
+
+}
+
+.feature {
+    display: flex;
+    justify-content: center;
+}
+
+.feature img {
+    width: 45%;
+}
+
+.feature iframe {
+    width: 45%;
+}
+
+.eisagwgh {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    font-size: 1.5em;
+    background-color: rgb(238, 238, 235);
+}
+
+.footer {
+    height: 5em;
+    color: white;
+    font-size: 1.5em;
+    margin-top: 2em;
+    background-color: #12233a;
+    display: flex;
+    align-items: center;
+
+}
+
+footer ul {
+    margin-left: 1em;
+}
+
+.lorem {
+    font-size: 1.5em;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    background-color: #eeeeeb;
+    text-align: center;
+    margin-left: 10%;
+    max-width: 80%;
+
+}
+
+.div111 {
+    background-color: #eeeeeb;
+}
+
+
+
+.table {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    border: none;
+    margin-top: 7em;
+    margin-bottom: 10em;
+}
+
+.brand {
+    max-width: 300px;
+    height: 150px;
+
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.main2 {
+    margin-top: 5em;
+    margin-left: 3em;
+    font-size: 1.5em;
+}
+
+.main2 li {
+    margin-top: 1em;
+    margin-left: 2em;
+}
+
+.hr {
+    margin-top: 4em;
+}
+
+.products {
+    font-size: 1.6em;
+    margin-top: 0.5em;
+    width: 95%;
+    text-align: left;
+}
+
+.products td {
+    padding-top: 0.5em;
+}
+
+.products a {
+    text-decoration: none;
+}
+
+.products tr {
+    border: none;
+}
+
+.productsmain {
+    display: flex;
+    justify-content: center;
+}
+
+.products tr:nth-of-type(even) {
+    background-color: #eeeeeb;
+}
+
+.productname :hover {
+    text-decoration: underline;
+}
+
+.main3 {
+    margin-top: 3em;
+    margin-left: 3em;
+    font-size: 1.5em;
+    display: flex;
+    margin-bottom: 2em;
+}
+
+.pd1 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    border: 1px solid #12233a;
+
+}
+
+.pd1 img {
+    width: 300px;
+    height: 150px;
+    padding: 1em;
+
+}
+
+.pd2 {
+    margin-left: 1.2em;
+    width: 50%;
+    line-height: 2em;
+}
+
+.pd2 li {
+    margin-left: 1em;
+}
+
+.pd1 .fp {
+    width: 90%;
+    height: auto;
+}
+
+#qty {
+    width: 2em;
+    font-size: 1em;
+}
+
+.cartbutton {
+    font-size: 1em;
+    width: 7em;
+    background-color: rgb(74, 240, 88);
+    border-radius: 10px;
+
+}
+
+.cartbutton:hover {
+    background-color: rgb(25, 214, 25);
+}
+
+.cartbutton:active {
+    transform: translateY(2px);
+}
+
+.center {
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+}
+
+.w50 {
+    width: 50%;
+}
+
+.fz {
+    font-size: 1.5em;
+}
+
+.eikona {
+    width: 75%;
+    height: 70%;
+}
+
+.right {
+    text-align: right;
+}
+
+.pnav {
+    font-size: 1.4em;
+    margin-top: 1em;
+    margin-left: 3em;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.border {
+    border: 1px solid black;
+    margin-top: 1em;
+    padding-left: 0.5em;
+}
+
+.simg {
+    width: 50px;
+    height: 50px;
+}
+
+.space {
+    justify-content: space-between;
+    width: 65%;
+}
+
+.middle {
+    align-items: center;
+}
+
+.ftable {
+    width: 60%;
+    text-align: center;
+}
+
+.main7 {
+    margin-top: 2em;
+    margin-left: 3em;
+    font-size: 1.5em;
+}
+
+.main7 ul {
+    margin-left: 1em;
+}
